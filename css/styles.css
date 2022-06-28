@@ -1,0 +1,125 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {font-family: 'Roboto', sans-serif; color: var(--primary-text-color);}
+
+.button:hover,
+.button:focus, 
+.section-button:hover,
+.section-button:focus {color: var(--accent-color);}
+.button,
+.section-button {cursor: pointer;}
+
+.nav-link a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);}
+
+.nav-link a:hover,
+.nav-link a:focus {color: var(--accent-color);}
+
+.contact-link a {color: var(--title-text-color);}
+.contact-link a:hover,
+.contact-link a:focus {color: var(--accent-color);}
+
+a.nav-logo,
+a.address-logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--accent-color);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+.nav-logo span {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+.address-logo span {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+.main {font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF}
+
+.section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--primary-text-color);}
+
+.section-product {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--primary-text-color);}
+
+.command-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--primary-text-color)}
+
+.product {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--title-text-color);}
+
+.command-position {
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--title-text-color);}
+
+.address-link a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);}
+
+.address-link a:hover,
+.address-link a:focus {color: var(--accent-color);}
+
+.section-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--primary-text-color);}
+
+.section-product {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: var(--primary-text-color);}
+
+.product-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--title-text-color);}
