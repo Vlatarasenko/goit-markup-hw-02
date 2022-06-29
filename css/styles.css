@@ -2,22 +2,32 @@
     --primary-text-color: #212121;
     --title-text-color: #757575;
     --accent-color: #2196F3;
-}
+    --logo-header-color: #000000;
+    --logo--footer-color: #ffffff;
+    --section-button-bg-color: #F5F4FA;}
 
 body {font-family: 'Roboto', sans-serif; color: var(--primary-text-color);}
 
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--logo--footer-color);}
+.button {background-color: var(--accent-color);}
+.section-button {background-color: var(--section-button-bg-color);}
+.section-button:hover,
+.section-button:focus {background-color: var(--accent-color);}
 .button:hover,
 .button:focus, 
 .section-button:hover,
-.section-button:focus {color: var(--accent-color);}
+.section-button:focus {color: var(--logo--footer-color);}
 .button,
 .section-button {cursor: pointer;}
 
 .nav-link a{
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);}
 
@@ -31,95 +41,87 @@ body {font-family: 'Roboto', sans-serif; color: var(--primary-text-color);}
 a.nav-logo,
 a.address-logo {
     font-family: Raleway;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     color: var(--accent-color);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
 
 .nav-logo span {
     font-family: Raleway;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    color: #000000;
+    line-height: 1.2;
+    color: var(--logo-header-color);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
 
 .address-logo span {
     font-family: Raleway;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    color: #ffffff;
+    line-height: 1.2;
+    color: var(--logo--footer-color);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
 
 .main {font-style: normal;
+    text-align: center;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-    color: #FFFFFF}
+    line-height: 1.4;
+    color: var(--logo--footer-color)}
 
 .section-title {
-    font-style: normal;
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     color: var(--primary-text-color);}
 
 .section-product {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     color: var(--primary-text-color);}
 
 .command-name {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     color: var(--primary-text-color)}
 
 .product {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 2;
     color: var(--title-text-color);}
 
 .command-position {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     color: var(--title-text-color);}
 
 .address-link a {
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 2;
     color: rgba(255, 255, 255, 0.6);}
 
 .address-link a:hover,
 .address-link a:focus {color: var(--accent-color);}
 
 .section-button {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.6;
     color: var(--primary-text-color);}
 
 .section-product {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     color: var(--primary-text-color);}
 
 .product-name {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     color: var(--title-text-color);}
