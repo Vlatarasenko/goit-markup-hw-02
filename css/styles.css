@@ -34,10 +34,10 @@ a {text-decoration: none;}
     letter-spacing: 0.03em;
     color: var(--active-color);}
 
-.logo .upper {
+.logo .accent {
     color: var(--black-color);}
 
-.logo .under {
+.footer .accent {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
