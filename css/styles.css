@@ -4,7 +4,8 @@
     --active-color: #2196F3;
     --bg-color: #FFFFFF;
     --black-color: #000000;
-    --button-bg-color: #F5F4FA;}
+    --button-bg-color: #F5F4FA;
+    --footer-address-color: rgba(255, 255, 255, 0.6)}
 
 body {
     background-color: var(--bg-color);
@@ -37,6 +38,9 @@ a {text-decoration: none;}
     color: var(--black-color);}
 
 .logo .under {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--bg-color);}
 
 /* nav */
@@ -65,8 +69,8 @@ a {text-decoration: none;}
 .nav .link:focus,
 .nav-contacts .link:hover,
 .nav-contacts .link:focus,
-.footer-address .link:hover,
-.footer-address .link:focus {
+.address .link:hover,
+.address .link:focus {
     color: var(--active-color);}
 
     /* hero */
@@ -78,9 +82,17 @@ a {text-decoration: none;}
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: var(--bg-color);}
+        color: var(--primary-text-color);}
 
     .hero-button {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1,88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
         color: var(--bg-color);
         background-color: var(--active-color);
         cursor: pointer;}
@@ -128,19 +140,17 @@ text-transform: uppercase;}
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);}
 
-    /* address */
-
-
+   
 /* button */
 
 .button {
-    background-color: var(--button-bg-color);
-    cursor: pointer;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;}
+    letter-spacing: 0.03em;
+    cursor: pointer;}
 
 .button:hover,
 .button:focus {
@@ -172,11 +182,12 @@ text-transform: uppercase;}
 
 /* footer */
     
-.footer-address .link {
+.address .link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--bg-color);}
+    color: var(--primary-text-color);}
+
